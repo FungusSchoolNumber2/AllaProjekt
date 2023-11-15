@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class UnityEventOnTrigger : MonoBehaviour
+public class tedUnityEventOnTrigger : MonoBehaviour
 {
     public UnityEvent onTriggerEnter, onTriggerExit;
 

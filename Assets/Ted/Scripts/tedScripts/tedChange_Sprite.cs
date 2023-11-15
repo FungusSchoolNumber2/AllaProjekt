@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Change_Sprite : MonoBehaviour
+public class tedChange_Sprite : MonoBehaviour
 {
 
     public SpriteRenderer spriteRenderer;
