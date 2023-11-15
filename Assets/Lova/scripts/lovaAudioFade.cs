@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class AudioFade : MonoBehaviour
+public class lovaAudioFade : MonoBehaviour
 {
     private AudioSource source;
     public float fadeInTargetVolume;

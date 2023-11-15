@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 
-public class UnityEventAfterTimer : MonoBehaviour
+public class lovaUnityEventAfterTimer : MonoBehaviour
 {
     public UnityEvent onTimerCompleted;
 

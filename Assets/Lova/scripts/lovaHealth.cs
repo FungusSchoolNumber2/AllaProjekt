@@ -10,7 +10,7 @@ using UnityEngine.Serialization;
 // If you don't know how to use UnityEvents, watch this video first: https://play.his.se/media/UnityEvents/0_nq9m8qin
 // Call the method TakeDamage or Heal from this script from other events (such as On Trigger Enter in the UnityEventOnTrigger-component), and set the number to the damage you want to apply (or the health you want to gain)
 // Add events to decide what happens when the character is damaged (OnDamage), when object can be damaged again (OnExitSafeTime), when health reaches zero (OnDie) or when the character is Healed (OnHealed)
-public class Health : MonoBehaviour
+public class lovaHealth : MonoBehaviour
 {
     [Tooltip("Maximum amount of health")]
     [SerializeField] float maxHealth = 10f;

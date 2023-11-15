@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToolScript : MonoBehaviour
+public class lovaToolScript : MonoBehaviour
 {
 
     public void QuitGame()
