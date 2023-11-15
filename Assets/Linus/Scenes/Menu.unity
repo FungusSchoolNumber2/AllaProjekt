@@ -1176,6 +1176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0371d6f6378b1fd4b9608683b24f1811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Scene: 
 --- !u!82 &123026434
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3026,9 +3027,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1784167807}
-        m_TargetAssemblyTypeName: ToolScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: LinusToolScript, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3087,6 +3088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0371d6f6378b1fd4b9608683b24f1811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Scene: PlayerScene
 --- !u!82 &1784167808
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3790,6 +3792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0371d6f6378b1fd4b9608683b24f1811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Scene: Test1
 --- !u!114 &2070234159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3847,9 +3850,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2070234158}
-        m_TargetAssemblyTypeName: ToolScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: LinusToolScript, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
