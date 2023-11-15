@@ -7,20 +7,15 @@ using UnityEngine.SceneManagement;
 
 public class LinusToolScript : MonoBehaviour
 {
-    [CanBeNull] public string Scene;
+    public string Scene;
     public void QuitGame()
     {
         Application.Quit();
     }
 
-    public void ChangeScene(string scene)
+    public void ChangeScene()
     {
-        if (Scene == null)
-        {
-            Scene = scene;
-        }
-        
-        Debug.Log("Loading: " + scene);
+        Debug.Log("Loading: " + Scene);
         SceneManager.LoadScene(Scene, LoadSceneMode.Single);
     }
     
