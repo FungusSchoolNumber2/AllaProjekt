@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 // Use with the components Rigidbody and PlayerInput.
 // Rigidbody should be set to Freeze Position Y and Freeze Rotation X and Z.
 // PlayerInput should be set to Behavior: Invoke Unity Events
-public class SimpleMovementControllerXZ : MonoBehaviour
+public class LinaSimpleMovementControllerXZ : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
     [SerializeField] private Rigidbody rigidbody;

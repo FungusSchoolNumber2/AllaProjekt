@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 // This component lets you rotate an object based on Look-input (mouse movement)
 // Use with the component PlayerInput
 // You will need to assign which transforms should be rotated horizontally and vertically
-public class RotationController : MonoBehaviour
+public class LinaRotationController : MonoBehaviour
 {
     [SerializeField] private float horizontalSpeed = 3f;
     [SerializeField] private float verticalSpeed = -0.2f;
