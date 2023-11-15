@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,17 +8,27 @@ using UnityEngine.InputSystem;
 public class GravityMovementController : MonoBehaviour
 { 
     [SerializeField] private float speed = 2f;
+    [SerializeField] private float jumpForce = 5f;
     [SerializeField] private CharacterController controller;
 
     private Vector2 moveInput;
+    private bool jumpInput;
     private Vector3 velocity;
     private bool wasGrounded;
     
+
     void Update()
     {
         ApplyGravity();
         
         velocity = transform.TransformDirection(TranslateInputToVelocity(moveInput));
+        
+        // Apply jump-input:
+        if (jumpInput)
+        {
+            velocity.y = jumpForce;
+            jumpInput = false;
+        }
         
         controller.Move(velocity * Time.deltaTime);
 
@@ -35,6 +46,11 @@ public class GravityMovementController : MonoBehaviour
         }
 
         wasGrounded = isGrounded;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
     }
     
     private void ApplyGravity()
@@ -73,5 +89,18 @@ public class GravityMovementController : MonoBehaviour
             Debug.Log("FIRE!");
             // Play fire-animation and/or trigger sound etc
         }
+    }
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if (context.performed && wasGrounded)
+        {
+            Debug.Log("Jump!");
+            jumpInput = true;
+            // Jumps: Set animation parameters etc here
+        }
+    }
+    private void QuitGame()
+    {
+        Application.Quit();
     }
 }
