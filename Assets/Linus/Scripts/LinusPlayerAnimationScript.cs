@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimationScript : MonoBehaviour
+public class LinusPlayerAnimationScript : MonoBehaviour
 {
     private Animator animator;
     
