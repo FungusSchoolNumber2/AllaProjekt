@@ -15,12 +15,12 @@ public class LinusToolScript : MonoBehaviour
 
     public void ChangeScene(string scene)
     {
-        Debug.Log("Loading: " + scene);
         if (Scene == null)
         {
             Scene = scene;
         }
         
+        Debug.Log("Loading: " + scene);
         SceneManager.LoadScene(Scene, LoadSceneMode.Single);
     }
     
