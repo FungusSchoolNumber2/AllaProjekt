@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartSpeed : MonoBehaviour
+public class tedStartSpeed : MonoBehaviour
 {
     public GameObject Player;
     public GameObject Camera;

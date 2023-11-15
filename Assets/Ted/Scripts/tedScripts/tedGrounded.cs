@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Grounded : MonoBehaviour
+public class tedGrounded : MonoBehaviour
 {
     public static bool isGrounded;
 

@@ -39,7 +39,7 @@ public class tedkillPlayer : MonoBehaviour
         //This assumes that the player gameobject has been given a tag called "Player"
         if (col.CompareTag("Player"))
         {
-            StartGame.ConstantSpeed = 0;
+            tedStartGame.ConstantSpeed = 0;
             Destroy(col.gameObject);
             Instantiate(victim, col.transform.position, col.transform.rotation);
             Debug.Log("Hiiiii");
