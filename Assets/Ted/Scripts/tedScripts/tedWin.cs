@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Win : MonoBehaviour
+public class tedWin : MonoBehaviour
 {
 
     public static bool bigWin;

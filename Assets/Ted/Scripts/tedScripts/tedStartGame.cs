@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartGame : MonoBehaviour
+public class tedStartGame : MonoBehaviour
 {
     public GameObject doodookaka;
     public static float ConstantSpeed;
