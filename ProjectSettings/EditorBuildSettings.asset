@@ -4,36 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    path: Assets/Lova/Scenes/scene1.unity
-    guid: 3854d3c62497a9442a2834d69177e716
-  - enabled: 1
-    path: Assets/Lova/Scenes/Beachscene.unity
-    guid: ab84785f1deb2964abee0b02061d03f9
-=======
->>>>>>> c393c9b49158b606d90d1065fcf60a2445c2094b
-    path: Assets/echo/Scenes/Main Menu.unity
-    guid: 6925e867f34a8a743885c3aa4013e37f
-  - enabled: 1
-    path: Assets/echo/Scenes/W2.unity
-    guid: e1ad74458a12f1142bbb15b6245ac820
-  - enabled: 1
-    path: Assets/echo/Scenes/WinScene.unity
-    guid: 3f2570710cf608d42aa57c4d99c93868
-<<<<<<< HEAD
-=======
-    path: Assets/karlbrahn/Scenes/sceneMenu.unity
-    guid: ee24652ca71f99041a1d007572ce9b3e
-  - enabled: 1
-    path: Assets/karlbrahn/Scenes/sceneGame.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
->>>>>>> Stashed changes
-=======
->>>>>>> 9482a78044942f807ff2b4283427dbb9432c09da
->>>>>>> c393c9b49158b606d90d1065fcf60a2445c2094b
+  m_Scenes: []
   m_configObjects: {}
