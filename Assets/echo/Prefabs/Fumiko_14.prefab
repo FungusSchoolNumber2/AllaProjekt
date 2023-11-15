@@ -88,8 +88,8 @@ GameObject:
   - component: {fileID: 8644826679691610559}
   - component: {fileID: 8644826679691610552}
   - component: {fileID: 8644826679691610553}
-  - component: {fileID: 8644826679691610554}
   - component: {fileID: 8644826679691610556}
+  - component: {fileID: 8644826680063240991}
   m_Layer: 0
   m_Name: Fumiko_14
   m_TagString: Player
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8644826679691610554}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MovementController2D, Assembly-CSharp
         m_MethodName: OnMove
         m_Mode: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8644826679691610554}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MovementController2D, Assembly-CSharp
         m_MethodName: OnJump
         m_Mode: 0
@@ -302,22 +302,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &8644826679691610554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8644826679691610555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abcbce583e77bdd4d909ecb9743a33e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  jumpForce: 6
-  controller: {fileID: 8644826679691610559}
-  anim: {fileID: 8644826679691610556}
 --- !u!95 &8644826679691610556
 Animator:
   serializedVersion: 5
@@ -339,6 +323,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8644826680063240991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8644826679691610555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc2b5d3e4c10d94c8a4e475ca32c9ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  jumpForce: 5
+  controller: {fileID: 8644826679691610559}
+  anim: {fileID: 8644826679691610556}
 --- !u!1 &8644826680204556008
 GameObject:
   m_ObjectHideFlags: 0

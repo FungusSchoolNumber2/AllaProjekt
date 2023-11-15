@@ -4950,7 +4950,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 12.65, y: 0}
+  m_AnchoredPosition: {x: 12.650024, y: 0}
   m_SizeDelta: {x: 1003, y: 645}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1971692307
@@ -6014,6 +6014,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8644826679691610553, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8644826680063240991}
+    - target: {fileID: 8644826679691610553, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8644826680063240991}
+    - target: {fileID: 8644826679691610553, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMove
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644826679691610553, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnJump
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644826679691610553, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Echo_MovementController2D, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644826679691610553, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Echo_MovementController2D, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8644826679691610555, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
       propertyPath: m_Name
       value: Fumiko_14
@@ -6062,5 +6086,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644826680063240991, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644826680063240991, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+      propertyPath: jumpForce
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+--- !u!114 &8644826680063240991 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8644826680063240991, guid: 3a8eb3ebb59af4b4dafe9b0587c390e5, type: 3}
+  m_PrefabInstance: {fileID: 8644826680063240987}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc2b5d3e4c10d94c8a4e475ca32c9ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
