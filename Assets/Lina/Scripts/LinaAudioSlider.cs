@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 using UnityEngine.UI;
 using TMPro;
 
-public class AudioSlider : MonoBehaviour
+public class LinaAudioSlider : MonoBehaviour
 {
     // For this script to be useful you need an audio mixer, mixer group(-s)
     // as well as exposing volume parameter(-s) from said group(-s)

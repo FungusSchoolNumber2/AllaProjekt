@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Lina/Scenes/LinaMenyScene.unity
+    guid: 29fdb98c12b898644aab0b982d31a4b9
+  - enabled: 1
+    path: Assets/Lina/Scenes/LinaNewScene.unity
+    guid: f3597847977fda747a233497e2d9aee4
   m_configObjects: {}

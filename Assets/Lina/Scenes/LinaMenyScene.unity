@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 610037181}
   - component: {fileID: 610037180}
-  - component: {fileID: 610037179}
+  - component: {fileID: 610037184}
   - component: {fileID: 610037183}
   - component: {fileID: 610037182}
   m_Layer: 0
@@ -184,18 +184,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &610037179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610037178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0371d6f6378b1fd4b9608683b24f1811, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &610037180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,8 +249,8 @@ MonoBehaviour:
     m_ActionName: Player/Look[/Mouse/delta]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 610037179}
-        m_TargetAssemblyTypeName: ApplicationHandler, Assembly-CSharp
+      - m_Target: {fileID: 610037184}
+        m_TargetAssemblyTypeName: LinaApplicationHandler, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -342,6 +330,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &610037184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610037178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b3444e5073f554c8d74ab3be40f3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &645605393
 GameObject:
   m_ObjectHideFlags: 0
