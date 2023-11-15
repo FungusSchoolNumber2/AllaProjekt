@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TurnAudioSource : MonoBehaviour
+public class LinusTurnAudioSource : MonoBehaviour
 {
         private AudioSource audioSource;
 

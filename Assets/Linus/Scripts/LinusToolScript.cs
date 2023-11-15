@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToolScript : MonoBehaviour
+public class LinusToolScript : MonoBehaviour
 {
 
     public void QuitGame()
