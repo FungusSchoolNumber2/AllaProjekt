@@ -5775,9 +5775,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1951760890}
+  - {fileID: 1951760891}
   selectedCommands:
-  - {fileID: 1951760894}
+  - {fileID: 1951760895}
   variables: []
   description: 
   stepPause: 0
@@ -5982,10 +5982,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 838691770}
-  targetComponentAssemblyName: MouseScript, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
+  targetComponentAssemblyName: LinusMouseScript, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MouseScript
+  targetComponentText: LinusMouseScript
   targetMethod: CursorInvisible
   targetMethodText: 'CursorInvisible (): Void'
   methodParameters: []
