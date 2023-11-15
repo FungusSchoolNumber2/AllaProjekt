@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jump : MonoBehaviour
+public class tedJump : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float jumpAmount = 300;
@@ -18,7 +18,7 @@ public class Jump : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (Grounded.isGrounded == true)
+            if (tedGrounded.isGrounded == true)
             {
                 rb.AddForce(new Vector2(rb.velocity.x, jumpAmount));
                 Debug.Log("slayyyy");
