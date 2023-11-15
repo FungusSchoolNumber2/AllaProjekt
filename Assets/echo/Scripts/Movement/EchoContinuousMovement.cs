@@ -5,7 +5,7 @@ using UnityEngine;
 // Call StartMovement or StopMovement from other events to control the movement of this object
 // If you don't know how to use UnityEvents, watch this video first: https://play.his.se/media/UnityEvents/0_nq9m8qin
 
-public class ContinuousMovement : MonoBehaviour
+public class EchoContinuousMovement : MonoBehaviour
 {
     [Tooltip("The direction and speed of the movement. A value of (1,0,0) will move the object to the right at the speed of 1 m/s")]
     [SerializeField] private Vector3 velocity;

@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 
 [RequireComponent(typeof(AudioSource))]
-public class AudioPlay : MonoBehaviour
+public class EchoAudioPlay : MonoBehaviour
 {
     private AudioSource source;
     private bool firstPlay = false;

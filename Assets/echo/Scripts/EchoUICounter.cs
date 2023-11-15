@@ -3,7 +3,7 @@ using UnityEngine;
 // Add this script to a UI object with a Text - TextMeshPro component
 // It contains methods that can be called from UnityEvents to change the value of the counter.
 // For example to count pickups or display health
-public class UICounter : MonoBehaviour
+public class EchoUICounter : MonoBehaviour
 {
     [Tooltip("The Text component where the counter value should be shown")]
     [SerializeField] private TMPro.TMP_Text counterText;
