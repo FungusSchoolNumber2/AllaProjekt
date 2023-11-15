@@ -2686,6 +2686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0371d6f6378b1fd4b9608683b24f1811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Scene: Menu
 --- !u!114 &1069714680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2702,9 +2703,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1069714679}
-        m_TargetAssemblyTypeName: ToolScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: LinusToolScript, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
