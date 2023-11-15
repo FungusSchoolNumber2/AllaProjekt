@@ -7,7 +7,7 @@ using UnityEngine.Events;
 // Needs a Rigidbody2D with Gravity Scale set to zero!
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class TopDown2dCharacter : MonoBehaviour
+public class lovaTopDown2dCharacter : MonoBehaviour
 {
     public float maxSpeed = 7;
     public bool controlEnabled = true;

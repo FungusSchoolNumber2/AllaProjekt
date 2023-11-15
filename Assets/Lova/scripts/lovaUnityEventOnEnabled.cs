@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class UnityEventOnEnabled : MonoBehaviour
+public class lovaUnityEventOnEnabled : MonoBehaviour
 {
     public UnityEvent customEvent;
 
