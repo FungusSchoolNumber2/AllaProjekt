@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Lova/Scenes/scene1.unity
+    guid: 3854d3c62497a9442a2834d69177e716
+  - enabled: 1
+    path: Assets/Lova/Scenes/Beachscene.unity
+    guid: ab84785f1deb2964abee0b02061d03f9
   m_configObjects: {}
