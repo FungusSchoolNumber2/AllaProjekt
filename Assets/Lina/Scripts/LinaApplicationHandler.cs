@@ -9,8 +9,8 @@ public class ApplicationHandler : MonoBehaviour
 {
     public void ChangeScene()
     {
-        // Load the scene named "NewScene"
-        SceneManager.LoadSceneAsync("NewScene", LoadSceneMode.Single);
+        // Load the scene named "LinaNewScene"
+        SceneManager.LoadSceneAsync("LinaNewScene", LoadSceneMode.Single);
     }
 
     public void QuitGame()
