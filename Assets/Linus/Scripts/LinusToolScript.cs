@@ -20,8 +20,8 @@ public class LinusToolScript : MonoBehaviour
             Scene = scene;
         }
         
-        SceneManager.LoadScene(Scene, LoadSceneMode.Single);
         Debug.Log("Loading: " + scene);
+        SceneManager.LoadScene(Scene, LoadSceneMode.Single);
     }
     
 }
