@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 // This component can be used to move a character that should be affected by gravity
 // Use with the components CharacterController and PlayerInput.
 // PlayerInput should be set to Behavior: Invoke Unity Events
-public class GravityMovementController : MonoBehaviour
+public class LinaGravityMovementController : MonoBehaviour
 { 
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float speed = 2f;
